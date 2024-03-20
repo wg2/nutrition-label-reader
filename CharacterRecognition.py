@@ -10,7 +10,8 @@ from langchain.prompts.prompt import PromptTemplate
 import openai
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+# Place OpenAI API key here
+os.environ["OPENAI_API_KEY"] = ""
 llm = OpenAI()
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
