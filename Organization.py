@@ -38,6 +38,7 @@ def update(window, map):
     window.mainloop()
 
 # Main method
+# Before running please add a OpenAI key to CharacterRecognition.py
 if __name__ == "__main__":
     cam = cv2.VideoCapture(0)
     reader = CharacterRecognition
